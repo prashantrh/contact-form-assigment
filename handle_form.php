@@ -1,7 +1,11 @@
 <?php
 
 require_once ('db_config.php');
-
+/**
+ * TODO:
+ * 1. Form validation
+ * 2. Check isset()
+ */
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];

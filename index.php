@@ -11,11 +11,11 @@
         <form action="handle_form.php" method="POST">
         <div class="form-group">
             <label>Name</label>
-            <input type="text" name="name" placeholder="Name" class="form-control" class="control-label col-md-12" />
+            <input type="text" name="name" placeholder="Name" required class="form-control" class="control-label col-md-12" />
             <label>Phone Number</label>
-            <input type="tel" name="phone" minlength="10" maxlength="10" placeholder="Phone number" class="form-control" />
+            <input type="tel" name="phone" minlength="10" maxlength="10" required placeholder="Phone number" class="form-control" />
             <label>Email</label>
-            <input type="text" name="email" placeholder="exmple@abc.com" class="form-control"/><br>
+            <input type="text" name="email" placeholder="exmple@abc.com" required class="form-control"/><br>
             <label>Message</label>
             <textarea name="message" id="" cols="30" rows="10" placeholder="Add Message Here" class="form-control" ></textarea><br>
             <button type="submit" class="btn btn-success">Submit</button>
